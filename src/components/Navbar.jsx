@@ -24,7 +24,7 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <div class="hidden lg:flex justify-center space-x-12 items-center">
+            <div className="hidden lg:flex justify-center space-x-12 items-center">
               <a href="#" className="py-2 px-3 border rounded-md">
                 Sign In
               </a>
@@ -35,14 +35,14 @@ const Navbar = () => {
                 Create an account
               </a>{" "}
             </div>
-            <div class="lg:hidden md:flex flex-col justify-end">
+            <div className="lg:hidden md:flex flex-col justify-end">
               <button onClick={toggleNavbar}>
                 {mobileDrawerOpen ? <X /> : <Menu />}
               </button>
             </div>
           </div>
           {mobileDrawerOpen && (
-            <div class="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
+            <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
                   <ul className="">
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
@@ -50,7 +50,7 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <div class="flex space-x-6">
+            <div className="flex space-x-6">
                 <a href="#" className="py-2 px-3 border rounded-md">Sign In</a>
                 <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3  rounded-md">Create an account</a>
             </div>

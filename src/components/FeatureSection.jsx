@@ -4,8 +4,8 @@ import { features } from "../constants";
 const FeatureSection = () => {
   return (
     <>
-      <div class="relative mt-20 border-b border-neutral-800 min-h-[800px]">
-        <div class="text-center">
+      <div className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
+        <div className="text-center">
           <span className="bg-neutral-900 text-orange-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase">
             Feature
           </span>
@@ -21,7 +21,7 @@ const FeatureSection = () => {
           {features.map((feature, index) => (
             <div key={index} className="w-full sm:w-1/2 lg:w-1/3">
               <div className="flex">
-                <div class="flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-orange-700 justify-center items-center rounded-full">
+                <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-orange-700 justify-center items-center rounded-full">
                   {feature.icon}
                 </div>
                 <div>

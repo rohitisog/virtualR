@@ -5,8 +5,8 @@ import video2 from "../assets/video2.mp4";
 const HeroSection = () => {
   return (
     <>
-      <div class="flex flex-col items-center mt-6 lg:mt-20">
-        <h1 class="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
+      <div className="flex flex-col items-center mt-6 lg:mt-20">
+        <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
           virtualR build tools
           <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
             {" "}
@@ -18,7 +18,7 @@ const HeroSection = () => {
           intuitive development tools. Get started today and turn your
           imagination into immersive reality!
         </p>
-        <div class="flex justify-center my-10">
+        <div className="flex justify-center my-10">
           <a
             href="#"
             className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
@@ -29,7 +29,7 @@ const HeroSection = () => {
             Documentation
           </a>
         </div>
-        <div class="flex mt-10 justify-center">
+        <div className="flex mt-10 justify-center">
           <video
             autoPlay
             loop
