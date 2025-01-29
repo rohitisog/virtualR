@@ -6,15 +6,15 @@ import { checklistItems } from "../constants";
 const Workflow = () => {
   return (
     <>
-      <div class="mt-20">
+      <div className="mt-20">
         <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
           Accelerate your{" "}
           <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
             coding workflow
           </span>
         </h2>
-        <div class="flex flex-wrap justify-center">
-          <div class="w-full p-2 lg:w-1/2">
+        <div className="flex flex-wrap justify-center">
+          <div className="w-full p-2 lg:w-1/2">
             <img src={codeImg} alt="code" />
           </div>
           <div className="pt-12 w-full lg:w-1/2 ">
